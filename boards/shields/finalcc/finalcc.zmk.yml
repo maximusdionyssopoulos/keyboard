@@ -1,0 +1,11 @@
+file_format: "1"
+id: finalcc
+name: final-cc
+type: shield
+url: https://github.com/rianadon/Cosmos-Keyboards
+features:
+  - keys
+  - studio
+siblings:
+  - finalcc_left
+  - finalcc_right

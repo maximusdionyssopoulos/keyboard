@@ -1,0 +1,10 @@
+
+#include "finalcc.dtsi"
+
+/ {
+    bootloader_key: bootloader_key {
+        compatible = "zmk,boot-magic-key";
+        key-position = <4>;
+        jump-to-bootloader;
+    };
+};

@@ -1,0 +1,24 @@
+
+if SHIELD_finalcc_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "final-cc"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_finalcc_LEFT
+
+if SHIELD_finalcc_LEFT || SHIELD_finalcc_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+config SPI
+    default y
+
+config ZMK_RGB_UNDERGLOW
+    select WS2812_STRIP
+    select SPI
+
+endif # SHIELD_finalcc_LEFT || SHIELD_finalcc_RIGHT
