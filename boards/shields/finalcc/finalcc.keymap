@@ -30,7 +30,7 @@
 
         // ------------------------------------------------------------------------------------------------------------
         //           |  1    |  2    |  3      |  4    |  5   |           |  6     |  PREV  |  PP   |  NEXT |  0   |
-        // |  BTLCLR |  BT1  |  BT2  |  BT3    |  BT4  |  T   |           |  Y     |  U     |  I    |  O    |  P   |   -   |
+        // |  BTLCLR |  BT1  |  BT2  |  BT3    |  BT4  |  BT5 |           |  Y     |  U     |  I    |  O    |  P   |   -   |
         // | RGUI    |  A    |  S    |  D      |  F    |  G   |           |  RIGHT |  DOWN  |  UP   |  LEFT |  ;   |   '   |
         // | BOOTL   |  Z    |  X    |  C      |  V    |  B   |           |  N     |  M     |  ,    |  .    |  /   | BOOTL |
         //           |  `    |  =    |                                    |  [     |  ]     |
@@ -40,13 +40,13 @@
 
         lower_layer {
             bindings = <
-                           &kp C_BRI_UP &kp C_BRI_DN  &kp trans    &kp trans    &kp trans           &kp trans       &kp C_PREV     &kp C_PP     &kp C_NEXT     &kp trans
-            &kp trans      &kp trans    &kp trans     &kp trans    &kp trans    &kp trans        &kp trans       &kp trans      &kp trans    &kp trans      &kp trans &kp trans
-            &kp trans      &kp trans    &kp trans     &kp trans    &kp trans    &kp trans           &kp RIGHT_ARROW &kp DOWN_ARROW &kp UP_ARROW &kp LEFT_ARROW &kp trans &kp trans
-            &bootloader    &kp trans    &kp trans     &kp trans    &kp trans    &kp trans           &kp trans       &kp trans      &kp trans    &kp trans      &kp trans &bootloader
-                                        &kp trans     &kp trans                                     &kp trans       &kp trans
-                                        &kp trans     &kp trans                                     &kp trans       &kp trans
-                           &kp trans    &kp trans     &kp trans                                     &kp trans       &kp trans      &kp trans
+                       &kp C_BRI_UP &kp C_BRI_DN  &trans       &trans       &trans            &trans          &kp C_PREV     &kp C_PP     &kp C_NEXT     &trans
+            &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &trans          &trans         &trans       &trans         &trans &trans
+            &trans      &trans    &trans     &trans    &trans  &trans                         &kp RIGHT_ARROW &kp DOWN_ARROW &kp UP_ARROW &kp LEFT_ARROW &trans &trans
+            &bootloader &trans    &trans     &trans    &trans  &trans                         &trans          &trans         &trans       &trans         &trans &bootloader
+                                  &trans     &trans                                           &trans          &trans
+                                  &trans     &trans                                           &trans          &trans
+                                  &trans    &trans     &trans                                 &trans          &trans         &trans
             >;
         };
     };
