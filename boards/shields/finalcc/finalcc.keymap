@@ -47,6 +47,6 @@
                                         &kp trans     &kp trans                                     &kp trans       &kp trans
                            &kp trans    &kp trans     &kp trans                                     &kp trans       &kp trans      &kp trans
             >;
-        }:
+        };
     };
 };
