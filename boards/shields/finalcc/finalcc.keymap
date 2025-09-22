@@ -38,16 +38,6 @@
         //           | LSHIFT | LGUI | SPACE   |                          | BSPC   |  ENTER | TAB   |
         // ------------------------------------------------------------------------------------------------------------
 
-        lower_layer {
-            bindings = <
-                           &kp C_BRI_UP &kp C_BRI_DEC &kp trans    &kp trans    &kp trans           &kp trans       &kp C_PREV     &kp C_PP     &kp C_NEXT     &kp trans
-            &bt BT_CLR     &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4        &kp trans       &kp trans      &kp trans    &kp trans      &kp trans &kp trans
-            &kp trans      &kp trans    &kp trans     &kp trans    &kp trans    &kp trans           &kp RIGHT_ARROW &kp DOWN_ARROW &kp UP_ARROW &kp LEFT_ARROW &kp trans &kp trans
-            &bootloader    &kp trans    &kp trans     &kp trans    &kp trans    &kp trans           &kp trans       &kp trans      &kp trans    &kp trans      &kp trans &bootloader
-                                        &kp trans     &kp trans                                     &kp trans       &kp trans
-                                        &kp trans     &kp trans                                     &kp trans       &kp trans
-                           &kp trans    &kp trans     &kp trans                                     &kp trans       &kp trans      &kp trans
-            >;
-        };
+
     };
 };
