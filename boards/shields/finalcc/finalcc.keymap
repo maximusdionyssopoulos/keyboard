@@ -18,13 +18,13 @@
 
         default_layer {
             bindings = <
-                         &kp N1     &kp N2    &kp N3     &kp N4 &kp N5        &kp N6    &kp N7        &kp N8     &kp N9  &kp N0
-            &kp UP       &kp Q      &kp W     &kp E      &kp R  &kp T         &kp Y     &kp U         &kp I      &kp O   &kp P    &kp MINUS
-            &kp RGUI     &kp A      &kp S     &kp D      &kp F  &kp G         &kp H     &kp J         &kp K      &kp L   &kp SEMI &kp SQT
-            &kp C_VOL_DN &kp Z      &kp X     &kp C      &kp V  &kp B         &kp N     &kp M         &kp COMMA  &kp DOT &kp FSLH &kp C_VOL_UP
-                                    &kp GRAVE &kp EQUAL                       &kp LBKT  &kp RBKT
-                                    &kp LALT  &kp LSHIFT                      &kp RCTRL &lt 1 BSLH
-                         &kp ESCAPE &kp LGUI  &kp SPACE                                 &kp BACKSPACE &kp RETURN &kp TAB
+                         &kp N1     &kp N2     &kp N3     &kp N4 &kp N5        &kp N6    &kp N7        &kp N8     &kp N9  &kp N0
+            &kp UP       &kp Q      &kp W      &kp E      &kp R  &kp T         &kp Y     &kp U         &kp I      &kp O   &kp P    &kp MINUS
+            &kp RGUI     &kp A      &kp S      &kp D      &kp F  &kp G         &kp H     &kp J         &kp K      &kp L   &kp SEMI &kp SQT
+            &kp C_VOL_DN &kp Z      &kp X      &kp C      &kp V  &kp B         &kp N     &kp M         &kp COMMA  &kp DOT &kp FSLH &kp C_VOL_UP
+                                    &kp GRAVE  &kp EQUAL                       &kp LBKT  &kp RBKT
+                                    &kp ESCAPE &kp LALT                        &kp RCTRL &lt 1 BSLH
+                         &kp LSHIFT &kp LGUI   &kp SPACE                                 &kp BACKSPACE &kp RETURN &kp TAB
             >;
         };
 
@@ -34,7 +34,7 @@
         // | RGUI    |  A    |  S    |  D      |  F    |  G   |           |  RIGHT |  DOWN  |  UP   |  LEFT |  ;   |   '   |
         // | BOOTL   |  Z    |  X    |  C      |  V    |  B   |           |  N     |  M     |  ,    |  .    |  /   | BOOTL |
         //           |  `    |  =    |                                    |  [     |  ]     |
-        //                  | ESC  | LALT      |                          | RCTRL  |  BSLH  |
+        //                   | ESC  | LALT      |                         | RCTRL  |  BSLH  |
         //           | LSHIFT | LGUI | SPACE   |                          | BSPC   |  ENTER | TAB   |
         // ------------------------------------------------------------------------------------------------------------
 
