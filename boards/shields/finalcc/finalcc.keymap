@@ -23,8 +23,8 @@
             &kp RGUI     &kp A    &kp S     &kp D      &kp F  &kp G         &kp H      &kp J         &kp K      &kp L   &kp SEMI &kp SQT
             &kp C_VOL_DN &kp Z    &kp X     &kp C      &kp V  &kp B         &kp N      &kp M         &kp COMMA  &kp DOT &kp FSLH &kp C_VOL_UP
                                   &kp GRAVE &kp EQUAL                       &kp LBKT   &kp RBKT
-                                  &kp LGUI  &kp LCTRL                       &kp LSHIFT &lt 1 BSLH
-                         &kp LALT &kp SPACE &kp ESCAPE                                 &kp BACKSPACE &kp RETURN &kp TAB
+                                  &kp LALT  &kp LCTRL                       &kp LSHIFT &lt 1 BSLH
+                         &kp LGUI &kp SPACE &kp ESCAPE                                 &kp BACKSPACE &kp RETURN &kp TAB
             >;
         };
 
